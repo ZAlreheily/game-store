@@ -1,0 +1,50 @@
+header {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background: rgb(59, 58, 58);
+  font-size: 20px;
+  width: 100%;
+  margin: auto;
+}
+h1 {
+  padding: 20px;
+  color: black;
+  text-align: center;
+  max-width: 75%;
+  margin: auto;
+}
+
+h4 {
+  padding: 10px;
+  max-width: 50%;
+  color: black;
+  margin: auto;
+  text-align: center;
+}
+.a {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+p {
+  text-align: center;
+}
+body {
+  margin: auto;
+  max-width: 1024px;
+  font-family: "Roboto", sans-serif;
+  background-image: url("/images/default-image.jpg");
+}
+@media only screen and (min-width: 768px) {
+  .split {
+    column-count: 2;
+    column-rule: 2px solid #a4a400;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .split {
+    column-count: 3;
+    column-rule: 2px solid #a4a400;
+  }
+}
